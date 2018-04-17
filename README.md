@@ -20,7 +20,7 @@ Available variables are listed below, along with default values (see `defaults/m
     automysqlbackup_host: localhost
     
     # space separated string of databases to include or ignore in the backup
-    #automysqlbackup_db_ames: "all"
+    #automysqlbackup_db_include: "all"
     automysqlbackup_db_exclude:
       - 'information_schema'
       - 'mysql'
